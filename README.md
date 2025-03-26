@@ -38,6 +38,9 @@ A fully functional **console-based clone** of the popular multiplayer puzzle-pla
 
 ### Compile and Run
 
+g++ -std=c++11 pico_park_clone.cpp -o pico_park_clone
+./pico_park_clone
+
 ## 🧠 Game Mechanics
 
 🟢 Player (P) – You!
