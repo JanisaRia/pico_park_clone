@@ -38,8 +38,18 @@ A fully functional **console-based clone** of the popular multiplayer puzzle-pla
 
 ### Compile and Run
 
-Using g++:
+## 🧠 Game Mechanics
 
-```bash
+🟢 Player (P) – You!
+
+🟡 Goal (G) – Reach this to clear the level
+
+🔴 Obstacles (X) – Enemies that patrol or chase
+
+🔵 Collectibles (C) – Add +50 to your score
+
+🟣 Traps (T) – Subtract -50 from your score (game over if score < 0)
+
+
 g++ -std=c++11 pico_park_clone.cpp -o pico_park_clone
 ./pico_park_clone
