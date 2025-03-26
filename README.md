@@ -53,6 +53,3 @@ g++ -std=c++11 pico_park_clone.cpp -o pico_park_clone
 
 🟣 Traps (T) – Subtract -50 from your score (game over if score < 0)
 
-
-g++ -std=c++11 pico_park_clone.cpp -o pico_park_clone
-./pico_park_clone
